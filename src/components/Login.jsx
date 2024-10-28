@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Login.css';
 
-const API_URL = 'http://localhost:5000/api/login'; // URL de la API
+const API_URL = 'https://back-loco.vercel.app/api/login'; // URL de la API
 
 function Login() {
     const [email, setEmail] = useState('');

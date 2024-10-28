@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/UserDashboard.css';
 
-const API_URL_HISTORY = 'http://localhost:5000/api/history'; // URL para historial
-const API_URL_REGISTER_CODE = 'http://localhost:5000/api/register-code'; // URL para registrar código
+const API_URL_HISTORY = 'https://back-loco.vercel.app/api/history'; // URL para historial
+const API_URL_REGISTER_CODE = 'https://back-loco.vercel.app/register-code'; // URL para registrar código
 
 function UserDashboard() {
     const [qrCode, setQrCode] = useState('');
